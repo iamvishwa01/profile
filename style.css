@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+}
+
+main {
+  padding: 30px 30px 0;
+  border: 5px solid #000;
+}
+
+.full-name h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-strip {
+  border: 2px solid #000;
+  padding: 8px;
+  margin: 25px 0;
+}
+
+section#keySkills ul {
+  margin: 20px 0;
+}
+
+section#keySkills ul li {
+  padding: 0 50px 0 0;
+}
+
+hr {
+  background: #000;
+  height: 2px;
+}
+
+.bg-grey {
+  background-color: #e3e3e3;
+}
+
+.edu h4 {
+  margin: 0;
+}
